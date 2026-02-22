@@ -25,6 +25,8 @@ def index():
             recommendation = "Ты немного грустишь."
         else:
             recommendation = "Нейтральное настроение."
+        print("Hello")
+        print(2+2)
 
     return render_template("index.html", recommendation=recommendation, user_text=user_text)
 
